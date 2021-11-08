@@ -4,7 +4,7 @@ let perfectNumbers = []
 let flag = 0
 let findingPerfectNum = (number)=>{
 for (let i = number; i > 1; i--) {
-   for(let j = 2 ; j < i/2 + 1; j++){
+   for(let j = 2 ; j <= i/2; j++){
        if(i % j == 0){
            sumOfDiveners = sumOfDiveners + j
    }
